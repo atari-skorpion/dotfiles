@@ -1,2 +1,8 @@
+# Folder view configuration files
 .DS_Store
-.git
+
+# node modules folder
+node_modules
+
+# bower components folder
+bower_components
