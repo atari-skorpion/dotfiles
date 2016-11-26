@@ -1,5 +1,3 @@
-echo "*** .aliases"
-
 # use coreutils `ls` if possible…
 hash gls >/dev/null 2>&1 || alias gls="ls"
 
