@@ -1,3 +1,10 @@
+#echo "*** .bash_profile"
+
+# Source definitions in .profile if exists
+if [ -f ~/.profile ]; then
+	. ~/.profile
+fi
+
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
 #   Use it to configure your PATH, thus it being first in line.
