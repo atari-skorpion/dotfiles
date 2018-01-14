@@ -28,5 +28,21 @@ cp ~/.gitconfig ~/migration/home
 git clone https://github.com/rupa/z.git ~/code/z
 # z is hooked up in .bash_profile
 
+# Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Homebrew is used in .aliases
+
+# Homebrew packages
+brew install coreutils node
+# coreutils, node and npm are used in .aliases
+
+# Homebrew-Cask taps
+brew tap caskroom/cask
+# brew cask is used in .aliases
+
+# Global npm packages
+npm -g install npm-check
+# npm-check is used in .aliases
+
 ###
 ##############################################################################################################
